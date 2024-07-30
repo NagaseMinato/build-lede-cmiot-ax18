@@ -3,5 +3,6 @@ pushd "lede"
 echo "src-git kaede https://github.com/AkinoKaede/openwrt-packages" >> "feeds.conf.default"
 echo "src-git daed https://github.com/QiuSimons/luci-app-daed" >> "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld" >> "feeds.conf.default"
+echo "src-git golang https://github.com/kenzok8/golang feeds/packages/lang/golang" >> "feeds.conf.default"
 ./scripts/feeds update -a; ./scripts/feeds install -a;
 popd
