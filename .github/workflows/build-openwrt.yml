@@ -59,7 +59,7 @@ jobs:
         name: Packages
         path: /home/runner/lede/bin/packages/
     - name: Upload Firmwares
-      uses: actions/upload-artifact@3
+      uses: actions/upload-artifact@v3
       with:
         name: Firmwares
         path: /home/runner/lede/bin/targets/
